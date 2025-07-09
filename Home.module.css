@@ -1,0 +1,75 @@
+
+.container {
+  font-family: sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.header {
+  background: #2563eb;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background: white;
+  color: #2563eb;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.sidebar {
+  background: #eff6ff;
+  padding: 1rem;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  padding: 0.5rem 0;
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+.button {
+  background: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cardSection {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  background: #fff;
+}
+.share {
+  margin-top: 2rem;
+}
+.share input, .share textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+}
